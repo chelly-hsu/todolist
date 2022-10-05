@@ -61,7 +61,7 @@ function Todolist() {
                   <input id={item.id} className="todoList_input" type="checkbox" checked={item.completed_at} onChange={() => handleCheckBox(item.id)} />
                   <span>{item.content}</span>
                 </label>
-                <span onClick={() => delTodoItem(item.id)} style={{ paddingBottom: '14px' }}><FontAwesomeIcon icon={faTimes}></FontAwesomeIcon></span>
+                <span onClick={() => delTodoItem(item.id)} style={{ padding: '14px 0px' }}><FontAwesomeIcon icon={faTimes}></FontAwesomeIcon></span>
               </li>
             ))
         }</ul>
