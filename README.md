@@ -1,3 +1,8 @@
+# Descript
+Rebuild Figma Style
+# Page link
+live at https://chelly-hsu.github.io/todolist/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
